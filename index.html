@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Форма обратной связи</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,500&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+<body>
+  <div class="container">
+    <div class="form-wrap">
+      <form class="search" action="#" method="POST">
+        <div class="search-inner">
+          <input class="search-input" type="search" placeholder="Поиск">
+          <button class="search-button" type="submit"></button>
+        </div>
+      </form>
+      <form class="main" action="#" method="POST">
+        <div class="contact">
+          <h3 class="subtitle">Связаться с нами</h3>
+          <p class="description">Вы можете связаться с нами по интересующим вопросам, написав нам:</p>
+          <p class="choice">Укажите ваш пол:</p>
+        </div>
+        <div class="genders">
+          <div class="gender">
+            <label class="label">
+              <input class="radio" type="radio" name="gender">Мужской
+              <span class="fake-input fake-radio"></span>
+            </label>
+          </div>
+          <div class="gender">
+            <label class="label">
+              <input class="radio" type="radio" name="gender">Женский
+              <span class="fake-input fake-radio"></span>
+            </label>
+          </div>
+        </div>
+        <div class="fields">
+          <div class="field">
+            <input class="field-input" type="text" name="name" placeholder="Имя">
+          </div>
+          <div class="field">
+            <input class="field-input" type="email" name="email" placeholder="E-mail">
+          </div>
+          <div class="field">
+            <textarea class="textarea" name="massage" placeholder="Текст сообщения..."></textarea>
+          </div>
+        </div>
+        <div class="sign-up">
+          <label class="label">
+            <input class="checkbox" type="checkbox">Подписаться на наши новости
+            <span class="fake-input fake-checkbox"></span>
+          </label>
+        </div>
+        <button class="main-button" type="submit">Отправить сообщение</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
